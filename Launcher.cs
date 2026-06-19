@@ -12,7 +12,7 @@ class Launcher {
     static void Main(string[] args) {
         // 起動するスクリプト名
         string exePath = AppDomain.CurrentDomain.BaseDirectory;
-        string scriptPath = Path.Combine(exePath, "印字位置切替ツール.ps1");
+        string scriptPath = Path.Combine(exePath, "MainScript.ps1");
 
         // スクリプトが同一階層に存在しない場合は終了
         if (!File.Exists(scriptPath)) return;
